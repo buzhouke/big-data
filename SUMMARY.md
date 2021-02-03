@@ -5,21 +5,22 @@
 ## 大数据基础
 
 * [Linux](da-shu-ju-ji-chu/linux/README.md)
-  * [常用命令](da-shu-ju-ji-chu/linux/常用命令.md)
-  * [文件目录介绍](da-shu-ju-ji-chu/linux/文件目录介绍.md)
-  * [文件搜索命令](da-shu-ju-ji-chu/linux/文件搜索命令.md)
-  * [权限管理命令](da-shu-ju-ji-chu/linux/权限管理命令.md)
+  * [常用命令](da-shu-ju-ji-chu/linux/chang-yong-ming-ling.md)
+  * [文件目录介绍](da-shu-ju-ji-chu/linux/wen-jian-mu-lu-jie-shao.md)
+  * [文件搜索命令](da-shu-ju-ji-chu/linux/wen-jian-sou-suo-ming-ling.md)
+  * [权限管理命令](da-shu-ju-ji-chu/linux/quan-xian-guan-li-ming-ling.md)
 * [Java](da-shu-ju-ji-chu/java/README.md)
   * [String](da-shu-ju-ji-chu/java/string.md)
+
 ## 大数据框架
 
+* [Hadoop](da-shu-ju-kuang-jia/hadoop.md)
 * [ELK](da-shu-ju-kuang-jia/elk/README.md)
   * [Elasticsearch01](da-shu-ju-kuang-jia/elk/elasticsearch01.md)
-  * [Elasticsearch02](da-shu-ju-kuang-jia/elk/elasticsearch02.md)
+  * [Elasticsearch02](da-shu-ju-kuang-jia/elk/elasticsearch02/README.md)
     * [Test02](da-shu-ju-kuang-jia/elk/elasticsearch02/test02.md)
 * [Flink](da-shu-ju-kuang-jia/flink/README.md)
   * [Flink安装与WordCount](da-shu-ju-kuang-jia/flink/flink-an-zhuang-yu-wordcount.md)
-* [Hadoop](da-shu-ju-kuang-jia/hadoop/README.md)
 
 ## 其他
 
