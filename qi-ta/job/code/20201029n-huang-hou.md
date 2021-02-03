@@ -1,10 +1,12 @@
-[TOC]
+# 20201029N皇后
 
-# 2020/10/29[N 皇后](https://leetcode-cn.com/problems/n-queens/)
+\[TOC\]
+
+## 2020/10/29[N 皇后](https://leetcode-cn.com/problems/n-queens/)
 
 本周是跟着B站教学视频学习回溯+剪枝。
 
-## 八皇后问题
+### 八皇后问题
 
 > **八皇后问题**（英文：**Eight queens**），是由国际西洋棋棋手马克斯·贝瑟尔于1848年提出的问题，是[回溯算法](https://baike.baidu.com/item/回溯算法/9258495)的典型案例。
 >
@@ -12,7 +14,7 @@
 
 先放代码
 
-```Java
+```java
 public class Queen {
     public static void main(String[] args) {
         new Queen().placeQueens(8);
@@ -63,7 +65,6 @@ public class Queen {
         System.out.println("---------------------------");
     }
 }
-
 ```
 
 先来简单讲讲对这个回溯的理解，其实就是对递归的一个应用，对于递归最容易理解的应该还是一颗二叉树，想象一下迷宫里，一个人走到岔路口，有两个位置可以走，走左边的人和走右边的人将产生两种不同的结果，并且不断地需要去做出选择，这一次是选择走左边还是走右边，在没有走到尽头（死胡同）时，这个人将一直走下去。
@@ -74,7 +75,7 @@ public class Queen {
 
 ![image-20201029211318916](https://i.loli.net/2020/10/29/G9IoEdVbaZy8ihq.png)
 
-看下图应该对程序的执行顺序更为直观，重点关注place(1),place(2),place(1)这几个变动时发生了什么。
+看下图应该对程序的执行顺序更为直观，重点关注place\(1\),place\(2\),place\(1\)这几个变动时发生了什么。
 
 ![image-20201029213745560](https://i.loli.net/2020/10/29/ckzx15jE2ZgPSGn.png)
 
@@ -82,7 +83,7 @@ public class Queen {
 
 也就是在这个for循环中，在第一个if判断语句成立时，它进入下一个place（），当place（）走投无路，它会回到原本的for循环中其他成立的isValid（）下继续进行其他的递归。
 
-## 优化一：对剪枝进行优化
+### 优化一：对剪枝进行优化
 
 查看原本的代码，发现isVaild（）的判断是用了一个for循环来进行，于是这一个块可以以空间换时间，节约至O（1）的复杂度。
 
@@ -158,10 +159,9 @@ public class Queen2 {
 //        System.out.println("---------------------------");
     }
 }
-
 ```
 
-## 优化二：用位运算降低空间复杂度
+### 优化二：用位运算降低空间复杂度
 
 这一点的思路在于布尔数组存的是true/fasle，true-》1，false-》0，在**八**皇后的情形下，一个数组可以替换成一个字节，如00100111 即`byte cols;`，两个字节则是使用`short rightTop`来替代
 
@@ -205,7 +205,7 @@ public class Queen3 {
         }
     }
 }
-
 ```
 
 这里涉及的位运算技巧还是挺多的，我就先承认自己没掌握好啦
+

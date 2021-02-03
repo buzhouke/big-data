@@ -25,6 +25,11 @@
 然后还是WordCount，本地开发环境，我这里就是idea+maven，maven导入依赖：
 
 ```xml
+=======
+# Flink安装与WordCount
+
+​```text
+>>>>>>> 4b409fc4c26e3f946cc0c655454f049bc2ac3e80:da-shu-ju-kuang-jia/flink/flink-an-zhuang-yu-wordcount.md
 <dependency>
   <groupId>org.apache.flink</groupId>
   <artifactId>flink-java</artifactId>
@@ -42,6 +47,7 @@
 </dependency>
 ```
 
+<<<<<<< HEAD:flink/Flink安装与WordCount.md
 代码：
 
 ```java
@@ -112,3 +118,9 @@ Please refer to the build guide for details on how to build Flink for a specific
 ---
 
 https://flink.apache.org/downloads.html#apache-flink-1121
+=======
+wget -O install.sh [http://download.bt.cn/install/install-ubuntu\_6.0.sh](http://download.bt.cn/install/install-ubuntu_6.0.sh) && sudo bash install.sh
+
+28000
+
+>>>>>>> 4b409fc4c26e3f946cc0c655454f049bc2ac3e80:da-shu-ju-kuang-jia/flink/flink-an-zhuang-yu-wordcount.md
