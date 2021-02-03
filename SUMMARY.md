@@ -3,10 +3,10 @@
 ## 大数据基础
 
 - [Linux](linux/README.md)
-  - [常用命令](常用命令.md)
-  - [文件目录介绍](文件目录介绍.md)
-  - [文件搜索命令](文件搜索命令.md)
-  - [权限管理命令](权限管理命令.md)
+  - [常用命令](linux/常用命令.md)
+  - [文件目录介绍](linux/文件目录介绍.md)
+  - [文件搜索命令](linux/文件搜索命令.md)
+  - [权限管理命令](linux/权限管理命令.md)
 - [Java](java/README.md)
   - [String](java/string.md)
 
