@@ -1,0 +1,12 @@
+{
+    "plugins": ["disqus","multipart"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "buzhou"
+        }
+    },
+"plugins": ["expandable-chapters-small"],
+    "pluginsConfig": {
+        "expandable-chapters-small":{}
+    }
+}
