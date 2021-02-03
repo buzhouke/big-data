@@ -1,4 +1,4 @@
-# 2020/09/23[实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
+# 20200923实现 StrStr\(\)
 
 这道题目，乍看上去还是挺简单的，于是一边听着学妹讲话一边不过脑子的写代码，事实证明，即便经过了昨天最长回文子串的历练，我仍然不够熟悉字符串的题目，
 
@@ -36,7 +36,7 @@ class Solution {
 
 官解：
 
-```Java
+```java
 class Solution {
   public int strStr(String haystack, String needle) {
     int L = needle.length(), n = haystack.length();
@@ -55,6 +55,7 @@ class Solution {
 
 但是这里还是要给阅读后的结论
 
-1. ``++start``这个写法室友跟我讲过，是能够卡时间复杂度还是什么，能编译快一点
-2. 由于是拿子串对比，将for循环限制在``start < n - L + 1``是十分必要也是需要我去学习的，这是去一段一段地截取出haystack，然后与needle对比。
+1. `++start`这个写法室友跟我讲过，是能够卡时间复杂度还是什么，能编译快一点
+2. 由于是拿子串对比，将for循环限制在`start < n - L + 1`是十分必要也是需要我去学习的，这是去一段一段地截取出haystack，然后与needle对比。
 3. 应该注意用equals而非==。
+

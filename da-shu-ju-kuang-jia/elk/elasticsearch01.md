@@ -2,7 +2,7 @@
 description: 仅为个人学习记录
 ---
 
-# 大数据学习记录——elaticsearch
+# Elasticsearch01
 
 10/17加入SZ学长的开源项目，于是时间基本花在对这个项目（这块业务）的了解与相关技术的学习。
 

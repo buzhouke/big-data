@@ -1,8 +1,6 @@
-# Flink WordCount
+# Flink安装与WordCount
 
-
-
-```
+```text
 <dependency>
   <groupId>org.apache.flink</groupId>
   <artifactId>flink-java</artifactId>
@@ -20,8 +18,7 @@
 </dependency>
 ```
 
- wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh
+wget -O install.sh [http://download.bt.cn/install/install-ubuntu\_6.0.sh](http://download.bt.cn/install/install-ubuntu_6.0.sh) && sudo bash install.sh
 
+28000
 
-
-28000 
