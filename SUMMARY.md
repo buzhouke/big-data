@@ -26,10 +26,13 @@
 
 * [求职](qi-ta/job/README.md)
   * [leetcode刷题](qi-ta/job/code/README.md)
-    * [20200922最长回文子串](qi-ta/job/code/20200922-zui-chang-hui-wen-zi-chuan.md)
-    * [20200923实现 StrStr\(\)](qi-ta/job/code/20200923-shi-xian-strstr.md)
-    * [20200925Z字形变换](qi-ta/job/code/20200925z-zi-xing-bian-huan.md)
-    * [20201029N皇后](qi-ta/job/code/20201029n-huang-hou.md)
+    * [归纳](qi-ta/job/code/summarization/README.md)
+      * [位运算](qi-ta/job/code/summarization/位运算.md)
+    * [写给自己看的题解](qi-ta/job/code/exercise/README.md)
+      * [20200922最长回文子串](qi-ta/job/code/exercise/20200922-zui-chang-hui-wen-zi-chuan.md)
+      * [20200923实现 StrStr\(\)](qi-ta/job/code/exercise/20200923-shi-xian-strstr.md)
+      * [20200925Z字形变换](qi-ta/job/code/exercise/20200925z-zi-xing-bian-huan.md)
+      * [20201029N皇后](qi-ta/job/code/exercise/20201029n-huang-hou.md)
   * [八股文](qi-ta/job/theory.md)
   * [反思与总结](qi-ta/job/think.md)
 
