@@ -1,7 +1,5 @@
 # 20201029N皇后
 
-\[TOC\]
-
 ## 2020/10/29[N 皇后](https://leetcode-cn.com/problems/n-queens/)
 
 本周是跟着B站教学视频学习回溯+剪枝。
