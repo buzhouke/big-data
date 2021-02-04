@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduce](README.md)
+* [INTRODUCE](README.md)
 
 ## 大数据基础
 
