@@ -1,5 +1,7 @@
 # 20200925Z字形变换
 
+题目:[Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)
+
 先放上写得不漂亮侥幸通过的代码，
 
 执行用时：79 ms, 在所有 Java 提交中击败了5.34%的用户，内存消耗：41.4 MB, 在所有 Java 提交中击败了5.01%
