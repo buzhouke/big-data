@@ -8,9 +8,5 @@
 
 leetcode刷题的一些工具整理
 
-[LeetCode Cookbook | Go](https://books.halfrost.com/)
-
-
-
-
+[LeetCode Cookbook \| Go](https://books.halfrost.com/)
 

@@ -30,6 +30,6 @@
     * [20200923实现 StrStr\(\)](qi-ta/job/code/20200923-shi-xian-strstr.md)
     * [20200925Z字形变换](qi-ta/job/code/20200925z-zi-xing-bian-huan.md)
     * [20201029N皇后](qi-ta/job/code/20201029n-huang-hou.md)
-  * [八股文](qi-ta/job/theory/README.md)
+  * [八股文](qi-ta/job/theory.md)
   * [反思与总结](qi-ta/job/think.md)
 
