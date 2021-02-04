@@ -25,11 +25,6 @@
 然后还是WordCount，本地开发环境，我这里就是idea+maven，maven导入依赖：
 
 ```markup
-=======
-# Flink安装与WordCount
-
-​```text
->>>>>>> 4b409fc4c26e3f946cc0c655454f049bc2ac3e80:da-shu-ju-kuang-jia/flink/flink-an-zhuang-yu-wordcount.md
 <dependency>
   <groupId>org.apache.flink</groupId>
   <artifactId>flink-java</artifactId>

@@ -27,7 +27,7 @@
 * [求职](qi-ta/job/README.md)
   * [leetcode刷题](qi-ta/job/code/README.md)
     * [归纳](qi-ta/job/code/summarization/README.md)
-      * [位运算](qi-ta/job/code/summarization/位运算.md)
+      * [位运算](qi-ta/job/code/summarization/wei-yun-suan.md)
     * [写给自己看的题解](qi-ta/job/code/exercise/README.md)
       * [20200922最长回文子串](qi-ta/job/code/exercise/20200922-zui-chang-hui-wen-zi-chuan.md)
       * [20200923实现 StrStr\(\)](qi-ta/job/code/exercise/20200923-shi-xian-strstr.md)
