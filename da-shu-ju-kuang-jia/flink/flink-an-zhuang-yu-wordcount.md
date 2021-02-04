@@ -1,10 +1,10 @@
-# Flink安装及WordCount
+# Flink安装与WordCount
 
 大数据的框架几乎都不支持Windows环境，生活不易，猫猫叹气。
 
 一想到在服务器上捣鼓东西就开始怂，不过这次装Flink框架简直顺利得不行。
 
-打开宝塔面板，在/usr/local/路径下上传从官网下载的[压缩包](https://mirrors.tuna.tsinghua.edu.cn/apache/flink/flink-1.12.1/flink-1.12.1-bin-scala_2.11.tgz),下载的是2_11，最新版本。
+打开宝塔面板，在/usr/local/路径下上传从官网下载的[压缩包](https://mirrors.tuna.tsinghua.edu.cn/apache/flink/flink-1.12.1/flink-1.12.1-bin-scala_2.11.tgz),下载的是2\_11，最新版本。
 
 然后解压，这个注意没必要指定文件夹，解压后它会以"flink-1.12.1"命名一个文件夹的（脑抽指定了发现要多打开一次 不开心）
 
@@ -12,11 +12,11 @@
 
 要记得检查安全组是否放行：
 
-![安全组放行](https://i.loli.net/2021/01/24/IQRGcXtUiWFn48m.png)
+![&#x5B89;&#x5168;&#x7EC4;&#x653E;&#x884C;](https://i.loli.net/2021/01/24/IQRGcXtUiWFn48m.png)
 
 访问8081端口，可以看到Flink的仪表盘：
 
-![Flink面板](https://i.loli.net/2021/01/24/xBYHlMuQ1Z3CGWz.png)
+![Flink&#x9762;&#x677F;](https://i.loli.net/2021/01/24/xBYHlMuQ1Z3CGWz.png)
 
 整套流程跟着官方教程一步步走下来其实很顺利，但是写博客记录时找不到了。
 
@@ -24,7 +24,7 @@
 
 然后还是WordCount，本地开发环境，我这里就是idea+maven，maven导入依赖：
 
-```xml
+```markup
 =======
 # Flink安装与WordCount
 
@@ -47,8 +47,7 @@
 </dependency>
 ```
 
-<<<<<<< HEAD:flink/Flink安装与WordCount.md
-代码：
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:flink/Flink安装与WordCount.md 代码：
 
 ```java
 package site.buzhou;
@@ -89,7 +88,6 @@ public class WordCount {
         }
     }
 }
-
 ```
 
 编译结果：
@@ -98,7 +96,7 @@ public class WordCount {
 
 看得出来就是复制官网的文段嘛hh：
 
-```
+```text
 We recommend packaging the application code and all its required dependencies into one jar-with-dependencies which we refer to as the application jar. The application jar can be submitted to an already running Flink cluster, or added to a Flink application container image.
 
 Projects created from the Java Project Template or Scala Project Template are configured to automatically include the application dependencies into the application jar when running mvn clean package. For projects that are not set up from those templates, we recommend adding the Maven Shade Plugin (as listed in the Appendix below) to build the application jar with all required dependencies.
@@ -115,6 +113,5 @@ Developers that only use Java can pick any Scala version, Scala developers need 
 Please refer to the build guide for details on how to build Flink for a specific Scala version.
 ```
 
----
+[https://flink.apache.org/downloads.html\#apache-flink-1121](https://flink.apache.org/downloads.html#apache-flink-1121)
 
-https://flink.apache.org/downloads.html#apache-flink-1121
