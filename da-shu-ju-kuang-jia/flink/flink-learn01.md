@@ -1,0 +1,1 @@
+flink1.12无SplitStream, 翻了API doc得出的结论.
