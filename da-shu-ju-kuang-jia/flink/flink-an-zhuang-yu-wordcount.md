@@ -47,7 +47,7 @@
 </dependency>
 ```
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:flink/Flink安装与WordCount.md 代码：
+代码：
 
 ```java
 package site.buzhou;
