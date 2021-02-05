@@ -9,6 +9,8 @@
   * [文件目录介绍](da-shu-ju-ji-chu/linux/wen-jian-mu-lu-jie-shao.md)
   * [文件搜索命令](da-shu-ju-ji-chu/linux/wen-jian-sou-suo-ming-ling.md)
   * [权限管理命令](da-shu-ju-ji-chu/linux/quan-xian-guan-li-ming-ling.md)
+  * [网络命令](da-shu-ju-ji-chu/linux/网络命令.md)
+  * [Vim命令](da-shu-ju-ji-chu/linux/Vim命令.md)
 * [Java](da-shu-ju-ji-chu/java/README.md)
   * [String](da-shu-ju-ji-chu/java/string.md)
 
