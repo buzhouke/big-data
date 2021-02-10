@@ -1,6 +1,6 @@
 # 20200923实现 StrStr\(\)
 
-题目: [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
+题目: [实现 strStr\(\)](https://leetcode-cn.com/problems/implement-strstr/)
 
 这道题目，乍看上去还是挺简单的，于是一边听着学妹讲话一边不过脑子的写代码，事实证明，即便经过了昨天最长回文子串的历练，我仍然不够熟悉字符串的题目，
 

@@ -68,8 +68,7 @@ traceroute 显示数据包到主机间的路径
 
 -n : 显示IP地址和端口号
 
-```shell
-
+```text
 [root@VM_0_14_centos ~]# netstat -tlun
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State
@@ -91,27 +90,25 @@ udp        0      0 172.17.0.14:123         0.0.0.0:*
 udp        0      0 127.0.0.1:123           0.0.0.0:*
 udp6       0      0 fe80::5054:ff:fec9::123 :::*
 udp6       0      0 ::1:123                 :::*
-
 ```
 
 可通过查询服务器开启了哪些端口来判断开启了哪些服务
 
 查看本机所有的网络连接：
 
-```shell
+```text
 netstat -an
 ```
 
 查看本机路由表：
 
-```shell
+```text
 [root@VM_0_14_centos ~]# netstat -rn
 Kernel IP routing table
 Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
 0.0.0.0         172.17.0.1      0.0.0.0         UG        0 0          0 eth0
 169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 eth0
 172.17.0.0      0.0.0.0         255.255.240.0   U         0 0          0 eth0
-
 ```
 
 ## setup 配置网络
@@ -127,6 +124,4 @@ tab键移动光标
 可以当作Windows的盘符来理解，不过这里的挂载点是目录。
 
 ~~
-
-
 

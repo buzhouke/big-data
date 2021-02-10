@@ -9,36 +9,35 @@
   * [文件目录介绍](da-shu-ju-ji-chu/linux/wen-jian-mu-lu-jie-shao.md)
   * [文件搜索命令](da-shu-ju-ji-chu/linux/wen-jian-sou-suo-ming-ling.md)
   * [权限管理命令](da-shu-ju-ji-chu/linux/quan-xian-guan-li-ming-ling.md)
-  * [网络命令](da-shu-ju-ji-chu/linux/网络命令.md)
-  * [Vim命令](da-shu-ju-ji-chu/linux/Vim命令.md)
+  * [网络命令](da-shu-ju-ji-chu/linux/wang-luo-ming-ling.md)
+  * [Vim命令](da-shu-ju-ji-chu/linux/vim-ming-ling.md)
 * [Java](da-shu-ju-ji-chu/java/README.md)
   * [String](da-shu-ju-ji-chu/java/string.md)
 
 ## 大数据计算
 
-* [Hadoop](大数据计算/hadoop/README.md)
-* [Spark](大数据计算/README.md)
-* [ELK](大数据计算/elk/README.md)
-  * [Elasticsearch01](da-shu-ju-kuang-jia/elk/elasticsearch01.md)
-  * [Elasticsearch02](da-shu-ju-kuang-jia/elk/elasticsearch02/README.md)
-    * [Test02](da-shu-ju-kuang-jia/elk/elasticsearch02/test02.md)
-* [Flink](大数据计算/flink/README.md)
-  * [Flink安装与WordCount](da-shu-ju-kuang-jia/flink/flink-an-zhuang-yu-wordcount.md)
+* [Hadoop](da-shu-ju-ji-suan/hadoop.md)
+* [Spark](da-shu-ju-ji-suan/spark.md)
+* [ELK](da-shu-ju-ji-suan/elk/README.md)
+  * [Elasticsearch01](da-shu-ju-ji-suan/elk/elasticsearch01.md)
+  * [Elasticsearch02](da-shu-ju-ji-suan/elk/elasticsearch02/README.md)
+    * [Test02](da-shu-ju-ji-suan/elk/elasticsearch02/test02.md)
+* [Flink](da-shu-ju-ji-suan/flink/README.md)
+  * [Flink安装与WordCount](da-shu-ju-ji-suan/flink/flink-an-zhuang-yu-wordcount.md)
 
 ## 大数据存储
 
-- [Hbase](大数据存储/hbase/README.md)
-- [ElasticSearch](大数据存储/hbase/README.md)
-
-- [Kafka](大数据存储/hbase/README.md)
-- [HDFS](大数据存储/hbase/README.md)
+* [Hbase](da-shu-ju-cun-chu/hbase.md)
+* [ElasticSearch](da-shu-ju-cun-chu/hbase-1.md)
+* [Kafka](da-shu-ju-cun-chu/hbase-2.md)
+* [HDFS](da-shu-ju-cun-chu/hbase-3.md)
 
 ## 资源管理/任务调度/集成
 
-- [ZooKeeper](资源管理&&任务调度&&集成/zookeeper/README.md)
-- [Yarn](资源管理&&任务调度&&集成/yarn/README.md)
-- [Kubernetes](资源管理&&任务调度&&集成/k8s/README.md)
-- [CDH](资源管理&&任务调度&&集成/cdh/README.md)
+* [ZooKeeper](zi-yuan-guan-li-ren-wu-tiao-du-ji-cheng/zookeeper.md)
+* [Yarn](zi-yuan-guan-li-ren-wu-tiao-du-ji-cheng/yarn.md)
+* [Kubernetes](zi-yuan-guan-li-ren-wu-tiao-du-ji-cheng/k8s.md)
+* [CDH](zi-yuan-guan-li-ren-wu-tiao-du-ji-cheng/cdh.md)
 
 ## 其他
 
