@@ -1,0 +1,899 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>20200922最长回文子串 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="20200923-shi-xian-strstr.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../../">
+            
+                <a href="../../../../">
+            
+                    
+                    INTRODUCE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">大数据基础</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../../../大数据基础/linux/">
+            
+                <a href="../../../../大数据基础/linux/">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../../../大数据基础/linux/chang-yong-ming-ling.html">
+            
+                <a href="../../../../大数据基础/linux/chang-yong-ming-ling.html">
+            
+                    
+                    常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../../../../大数据基础/linux/wen-jian-mu-lu-jie-shao.html">
+            
+                <a href="../../../../大数据基础/linux/wen-jian-mu-lu-jie-shao.html">
+            
+                    
+                    文件目录介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../../../../大数据基础/linux/wen-jian-sou-suo-ming-ling.html">
+            
+                <a href="../../../../大数据基础/linux/wen-jian-sou-suo-ming-ling.html">
+            
+                    
+                    文件搜索命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../../../../大数据基础/linux/quan-xian-guan-li-ming-ling.html">
+            
+                <a href="../../../../大数据基础/linux/quan-xian-guan-li-ming-ling.html">
+            
+                    
+                    权限管理命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../../../../大数据基础/linux/网络命令.html">
+            
+                <a href="../../../../大数据基础/linux/网络命令.html">
+            
+                    
+                    网络命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../../../../大数据基础/linux/Vim命令.html">
+            
+                <a href="../../../../大数据基础/linux/Vim命令.html">
+            
+                    
+                    Vim命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../../../大数据基础/java/">
+            
+                <a href="../../../../大数据基础/java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../../../大数据基础/java/string.html">
+            
+                <a href="../../../../大数据基础/java/string.html">
+            
+                    
+                    String
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">大数据计算</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../../../大数据计算/hadoop/README.md">
+            
+                <span>
+            
+                    
+                    Hadoop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../../../大数据计算/README.md">
+            
+                <span>
+            
+                    
+                    Spark
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../../../../大数据计算/elk/README.md">
+            
+                <span>
+            
+                    
+                    ELK
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="../../../../大数据计算/elk/elasticsearch01.html">
+            
+                <a href="../../../../大数据计算/elk/elasticsearch01.html">
+            
+                    
+                    Elasticsearch01
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="../../../../大数据计算/elk/elasticsearch02/">
+            
+                <a href="../../../../大数据计算/elk/elasticsearch02/">
+            
+                    
+                    Elasticsearch02
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.2.1" data-path="../../../../大数据计算/elk/elasticsearch02/test02.html">
+            
+                <a href="../../../../大数据计算/elk/elasticsearch02/test02.html">
+            
+                    
+                    Test02
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../../../../大数据计算/flink/README.md">
+            
+                <span>
+            
+                    
+                    Flink
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.4.1" data-path="../../../../大数据计算/flink/flink-an-zhuang-yu-wordcount.html">
+            
+                <a href="../../../../大数据计算/flink/flink-an-zhuang-yu-wordcount.html">
+            
+                    
+                    Flink安装与WordCount
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">大数据存储</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../../../大数据存储/hbase/README.md">
+            
+                <span>
+            
+                    
+                    Hbase
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../../../大数据存储/hbase/README.md">
+            
+                <span>
+            
+                    
+                    ElasticSearch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../../../../大数据存储/hbase/README.md">
+            
+                <span>
+            
+                    
+                    Kafka
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../../../../大数据存储/hbase/README.md">
+            
+                <span>
+            
+                    
+                    HDFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">资源管理/任务调度/集成</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../../../资源管理&&任务调度&&集成/zookeeper/README.md">
+            
+                <span>
+            
+                    
+                    ZooKeeper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../../../../资源管理&&任务调度&&集成/yarn/README.md">
+            
+                <span>
+            
+                    
+                    Yarn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../../../../资源管理&&任务调度&&集成/k8s/README.md">
+            
+                <span>
+            
+                    
+                    Kubernetes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../../../../资源管理&&任务调度&&集成/cdh/README.md">
+            
+                <span>
+            
+                    
+                    CDH
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">其他</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    求职
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    leetcode刷题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1.1" data-path="../summarization/">
+            
+                <a href="../summarization/">
+            
+                    
+                    归纳
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1.1.1" data-path="../summarization/wei-yun-suan.html">
+            
+                <a href="../summarization/wei-yun-suan.html">
+            
+                    
+                    位运算
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    写给自己看的题解
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="6.1.1.2.1" data-path="20200922-zui-chang-hui-wen-zi-chuan.html">
+            
+                <a href="20200922-zui-chang-hui-wen-zi-chuan.html">
+            
+                    
+                    20200922最长回文子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.2.2" data-path="20200923-shi-xian-strstr.html">
+            
+                <a href="20200923-shi-xian-strstr.html">
+            
+                    
+                    20200923实现 StrStr()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.2.3" data-path="20200925z-zi-xing-bian-huan.html">
+            
+                <a href="20200925z-zi-xing-bian-huan.html">
+            
+                    
+                    20200925Z字形变换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.2.4" data-path="20201029n-huang-hou.html">
+            
+                <a href="20201029n-huang-hou.html">
+            
+                    
+                    20201029N皇后
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../../theory.html">
+            
+                <a href="../../theory.html">
+            
+                    
+                    八股文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="../../think.html">
+            
+                <a href="../../think.html">
+            
+                    
+                    反思与总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../.." >20200922最长回文子串</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="20200922&#x6700;&#x957F;&#x56DE;&#x6587;&#x5B50;&#x4E32;">20200922&#x6700;&#x957F;&#x56DE;&#x6587;&#x5B50;&#x4E32;</h1>
+<p>&#x9898;&#x76EE;: <a href="https://leetcode-cn.com/problems/longest-palindromic-substring/" target="_blank">&#x6700;&#x957F;&#x56DE;&#x6587;&#x5B50;&#x4E32;</a></p>
+<p>&#x770B;&#x56DE;leetcode&#x611F;&#x89C9;&#x81EA;&#x5DF1;&#x786E;&#x5B9E;&#x662F;&#x5341;&#x5206;&#x83DC;&#xFF0C;&#x76F8;&#x5F53;&#x83DC;&#xFF0C;&#x5341;&#x5206;&#x949F;&#x60F3;&#x601D;&#x8DEF;&#xFF0C;20&#x5206;&#x949F;&#x627E;&#x76F8;&#x5E94;&#x7684;&#x65B9;&#x6CD5;&#x7136;&#x540E;&#x78D5;&#x78D5;&#x7ECA;&#x7ECA;&#x5730;&#x5199;&#x4EE3;&#x7801;&#xFF0C;&#x518D;&#x6765;&#x5341;&#x5206;&#x949F;&#x5BF9;&#x7740;leetcode&#x7684;&#x4E0D;&#x53CB;&#x597D;&#x62A5;&#x9519;debug&#xFF0C;&#x518D;&#x662F;&#x770B;&#x7740;&#x81EA;&#x5DF1;&#x7684;&#x4EE3;&#x7801;&#x611F;&#x89C9;&#x518D;&#x6539;&#x4E0B;&#x53BB;&#x6D6A;&#x8D39;&#x65F6;&#x95F4;&#xFF0C;&#x518D;&#x82B1;&#x5341;&#x5206;&#x949F;&#x770B;&#x9898;&#x89E3;</p>
+<p>&#x7684;&#x60F3;&#x6CD5;&#x80AF;&#x5B9A;&#x662F;&#x5C06;&#x56DE;&#x6587;&#x4E32;&#xFF0C;&#x5BF9;&#x53E0;&#xFF0C;&#x4EA6;&#x5373;&#x9898;&#x89E3;&#x4E2D;&#x8BF4;&#x7684;&#x201C;&#x4E2D;&#x5FC3;&#x6269;&#x6563;&#x6CD5;&#x201D;&#xFF0C;</p>
+<h2 id="&#x4E2D;&#x5FC3;&#x6269;&#x6563;&#x6CD5;">&#x4E2D;&#x5FC3;&#x6269;&#x6563;&#x6CD5;</h2>
+<p>&#x56DE;&#x987E;&#x81EA;&#x5DF1;&#x5199;&#x7684;&#x5783;&#x573E;&#x4EE3;&#x7801;&#xFF0C;&#x6700;&#x4E3A;&#x81F4;&#x547D;&#x7684;&#x4E00;&#x70B9;&#x662F;&#xFF0C;&#x5728;&#x4E0D;&#x4E86;&#x89E3;&#x6709;&#x54EA;&#x4E9B;&#x4E1C;&#x897F;&#x53EF;&#x7528;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x70B9;&#x5F00;&#x83DC;&#x9E1F;&#x6559;&#x7A0B;&#xFF0C;&#x627E;&#x5230;&#x4E86;&#x8BB0;&#x5FC6;&#x91CC;&#x7684;CobyValueOf&#xFF08;&#xFF09;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Test</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String args[])</span> </span>{
+        <span class="hljs-keyword">char</span>[] Str1 = {<span class="hljs-string">&apos;h&apos;</span>, <span class="hljs-string">&apos;e&apos;</span>, <span class="hljs-string">&apos;l&apos;</span>, <span class="hljs-string">&apos;l&apos;</span>, <span class="hljs-string">&apos;o&apos;</span>, <span class="hljs-string">&apos; &apos;</span>, <span class="hljs-string">&apos;r&apos;</span>, <span class="hljs-string">&apos;u&apos;</span>, <span class="hljs-string">&apos;n&apos;</span>, <span class="hljs-string">&apos;o&apos;</span>, <span class="hljs-string">&apos;o&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>};
+        String Str2 = <span class="hljs-string">&quot;&quot;</span>;
+
+        Str2 = Str2.copyValueOf( Str1 );
+        System.out.println(<span class="hljs-string">&quot;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF1A;&quot;</span> + Str2);
+
+        Str2 = Str2.copyValueOf( Str1, <span class="hljs-number">2</span>, <span class="hljs-number">6</span> );
+        System.out.println(<span class="hljs-string">&quot;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF1A;&quot;</span> + Str2);
+    }
+}
+</code></pre>
+<p>&#x5F00;&#x59CB;&#x4E86;&#x5C06;&#x5B57;&#x7B26;&#x4E32;&#x8F6C;char[]&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x7E41;&#x7410;&#x4E14;&#x6613;&#x51FA;&#x9519;&#xFF0C;&#x800C;&#x5FFD;&#x89C6;&#x4E86;String&#x672C;&#x8EAB;&#x7684;charAt&#xFF08;&#xFF09;&#xFF0C;&#x53E6;&#x5916;&#x5728;&#x641E;&#x7C7B;&#x4F3C;&#x201C;&#x53CC;&#x6307;&#x9488;&#x201D;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x603B;&#x662F;&#x5B66;&#x4E0D;&#x4E56;&#x7528;for&#xFF0C;&#x7136;&#x540E;&#x76EE;&#x77AA;&#x53E3;&#x5446;&#x5730;&#x770B;&#x7740;leetcode&#x7834;&#x7F16;&#x8BD1;&#x5668;&#x62A5;&#x9519;&#xFF0C;&#x662F;&#x7684;&#xFF0C;&#x5B83;&#x7ADF;&#x7136;&#x4E0D;&#x652F;&#x6301;&#x8FD9;&#x79CD;&#x5199;&#x6CD5;&#xFF0C;</p>
+<pre><code class="lang-java"> <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>, j = str.length() - <span class="hljs-number">1</span>; i &lt; j; i++, j--) {
+            <span class="hljs-keyword">char</span> temp = value[i];
+            value[i] = value[j];
+            value[j] = temp;
+        }
+</code></pre>
+<p>&#x9898;&#x89E3;&#x7684;&#x5199;&#x6CD5;&#x5C31;&#x662F;&#x597D;&#x770B;&#x54ED;&#x5527;&#x5527;&#xFF0C;</p>
+<pre><code class="lang-text">public class Solution {
+
+    public String longestPalindrome(String s) {
+        int len = s.length();
+        if (len &lt; 2) {
+            return s;
+        }
+        int maxLen = 1;
+        String res = s.substring(0, 1);
+        // &#x4E2D;&#x5FC3;&#x4F4D;&#x7F6E;&#x679A;&#x4E3E;&#x5230; len - 2 &#x5373;&#x53EF;
+        for (int i = 0; i &lt; len - 1; i++) {
+            String oddStr = centerSpread(s, i, i);
+            String evenStr = centerSpread(s, i, i + 1);
+            String maxLenStr = oddStr.length() &gt; evenStr.length() ? oddStr : evenStr;
+            if (maxLenStr.length() &gt; maxLen) {
+                maxLen = maxLenStr.length();
+                res = maxLenStr;
+            }
+        }
+        return res;
+    }
+
+    private String centerSpread(String s, int left, int right) {
+        // left = right &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6B64;&#x65F6;&#x56DE;&#x6587;&#x4E2D;&#x5FC3;&#x662F;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#xFF0C;&#x56DE;&#x6587;&#x4E32;&#x7684;&#x957F;&#x5EA6;&#x662F;&#x5947;&#x6570;
+        // right = left + 1 &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6B64;&#x65F6;&#x56DE;&#x6587;&#x4E2D;&#x5FC3;&#x662F;&#x4E00;&#x4E2A;&#x7A7A;&#x9699;&#xFF0C;&#x56DE;&#x6587;&#x4E32;&#x7684;&#x957F;&#x5EA6;&#x662F;&#x5076;&#x6570;
+        int len = s.length();
+        int i = left;
+        int j = right;
+        while (i &gt;= 0 &amp;&amp; j &lt; len) {
+            if (s.charAt(i) == s.charAt(j)) {
+                i--;
+                j++;
+            } else {
+                break;
+            }
+        }
+        // &#x8FD9;&#x91CC;&#x8981;&#x5C0F;&#x5FC3;&#xFF0C;&#x8DF3;&#x51FA; while &#x5FAA;&#x73AF;&#x65F6;&#xFF0C;&#x6070;&#x597D;&#x6EE1;&#x8DB3; s.charAt(i) != s.charAt(j)&#xFF0C;&#x56E0;&#x6B64;&#x4E0D;&#x80FD;&#x53D6; i&#xFF0C;&#x4E0D;&#x80FD;&#x53D6; j
+        return s.substring(i + 1, j);
+    }
+}
+</code></pre>
+<p>&#x63A5;&#x4E0B;&#x6765;&#xFF0C;&#x7B80;&#x5355;&#x603B;&#x7ED3;&#xFF08;&#x5B66;&#x4E60;&#xFF09;&#x4ED6;&#x4EBA;&#x9898;&#x89E3;&#x7684;&#x4F18;&#x70B9;&#xFF1A;</p>
+<p>1&#x3001; <code>String res = s.substring(0, 1);</code>&#xFF0C;&#x4E00;&#x4E2A;res&#x8D70;&#x5929;&#x4E0B;&#x7CFB;&#x5217;</p>
+<p>2&#x3001;&#x7528;while&#x6765;&#x5199;&#x5FAA;&#x73AF;&#xFF08;&#x5988;&#x8036;&#x5927;&#x4E09;&#x4E86;&#x548B;&#x8FDE;&#x70B9;&#x4F18;&#x5316;&#x5199;&#x6CD5;&#x90FD;&#x4E0D;&#x77E5;&#x9053;&#xFF09;</p>
+<p>3&#x3001;&#x8003;&#x8651;&#x5947;&#x6570;&#x5076;&#x6570;&#x7684;&#x5404;&#x5F02;&#x60C5;&#x51B5;&#xFF08;&#x800C;&#x6211;&#x5374;&#x3001;&#x3001;&#x5C31;&#x662F;&#x770B;&#x7740;&#x81EA;&#x5DF1;&#x7684;&#x5199;&#x6CD5;&#x641E;&#x8FD9;&#x4E2A;&#x641E;&#x4E0D;&#x592A;&#x6765;&#x56E0;&#x6B64;&#x653E;&#x5F03;&#x8FDB;&#x4E00;&#x6B65;debug&#xFF0C;&#x653E;&#x4EFB;&#x4EE3;&#x7801;&#x5E9F;&#x6389;&#xFF09;</p>
+<p>4&#x3001;&#x9488;&#x5BF9;&#x539F;&#x6709;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x800C;&#x975E;&#x53E6;&#x5916;&#x5F04;&#x4E2A;&#x6570;&#x7EC4;</p>
+<p>&#x6478;&#x7D22;&#x7740;&#x57FA;&#x672C;&#x9886;&#x4F1A;&#x4E86;&#x4E0A;&#x8FF0;&#x4EE3;&#x7801;&#x7684;&#x5199;&#x6CD5;&#xFF0C;&#x6548;&#x7387;&#x679C;&#x7136;&#x6BD4;&#x81EA;&#x5DF1;&#x6B7B;&#x62A0;&#x4EE3;&#x7801;&#x9AD8;&#x4E86;&#x90A3;&#x4E48;&#x4E00;&#x4E22;&#x4E22;&#xFF0C;&#x503C;&#x5F97;&#x5E86;&#x795D;&#x3002;</p>
+<h2 id="&#x52A8;&#x6001;&#x89C4;&#x5212;">&#x52A8;&#x6001;&#x89C4;&#x5212;</h2>
+<p>&#x9488;&#x5BF9;&#x4E0B;&#x4E00;&#x79CD;&#x89E3;&#x6CD5;&#xFF0C;&#x52A8;&#x6001;&#x89C4;&#x5212;&#xFF0C;&#x201C;&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x5B50;&#x4E32;&#x800C;&#x8A00;&#xFF0C;&#x5982;&#x679C;&#x5B83;&#x662F;&#x56DE;&#x6587;&#x4E32;&#xFF0C;&#x5E76;&#x4E14;&#x957F;&#x5EA6;&#x5927;&#x4E8E; 22&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x5B83;&#x9996;&#x5C3E;&#x7684;&#x4E24;&#x4E2A;&#x5B57;&#x6BCD;&#x53BB;&#x9664;&#x4E4B;&#x540E;&#xFF0C;&#x5B83;&#x4ECD;&#x7136;&#x662F;&#x4E2A;&#x56DE;&#x6587;&#x4E32;&#x3002;&#x4F8B;&#x5982;&#x5BF9;&#x4E8E;&#x5B57;&#x7B26;&#x4E32; &#x201D;ababa&apos;&apos;&#xFF0C;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x5DF2;&#x7ECF;&#x77E5;&#x9053; &#x201C;bab&#x201D; &#x662F;&#x56DE;&#x6587;&#x4E32;&#xFF0C;&#x90A3;&#x4E48;&#x201C;ababa&#x201D; &#x4E00;&#x5B9A;&#x662F;&#x56DE;&#x6587;&#x4E32;&#xFF0C;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x5B83;&#x7684;&#x9996;&#x5C3E;&#x4E24;&#x4E2A;&#x5B57;&#x6BCD;&#x90FD;&#x662F; &#x201C;a&#x201D;&#x201C;&#xFF0C;&#x4ECE;&#x8FD9;&#x4E2A;&#x89D2;&#x5EA6;&#x6765;&#x601D;&#x8003;&#xFF0C;&#x7FFB;&#x56DE;&#x4E4B;&#x524D;&#x6240;&#x5B66;&#x52A8;&#x6001;&#x89C4;&#x5212;&#x65F6;&#x6982;&#x62EC;&#x7684;&#xFF0C;&#x201D;dp&#xFF1A;<strong>&#x80FD;&#x5C06;&#x5927;&#x95EE;&#x9898;&#x62C6;&#x6210;&#x51E0;&#x4E2A;&#x5C0F;&#x95EE;&#x9898;&#xFF0C;&#x4E14;&#x6EE1;&#x8DB3;&#x65E0;&#x540E;&#x6548;&#x6027;&#x3001;&#x6700;&#x4F18;&#x5B50;&#x7ED3;&#x6784;&#x6027;&#x8D28;&#x3002;</strong>&#x201C;&#xFF0C;&#x4E5F;&#x662F;&#x80FD;&#x53BB;&#x62C6;&#x5206;&#x95EE;&#x9898;&#x3002;</p>
+<p>&#x8FD9;&#x91CC;&#x53EF;&#x4EE5;&#x4F53;&#x4F1A;&#x5230;&#xFF0C;&#x8FD9;&#x79CD;&#x62C6;&#x5206;&#xFF0C;&#x5C06;&#x5927;&#x95EE;&#x9898;&#x62C6;&#x89E3;&#x4E3A;&#x5C0F;&#x95EE;&#x9898;&#xFF0C;&#x662F;&#x8BA1;&#x7B97;&#x673A;&#x9886;&#x57DF;&#x76F8;&#x5F53;&#x5E38;&#x89C1;&#x7684;&#x601D;&#x7EF4;&#xFF0C;&#x6DF1;&#x6316;&#x5230;&#x6700;&#x540E;&#x4E5F;&#x5C31;&#x662F;0&amp;1&#xFF1B;</p>
+<pre><code class="lang-java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">longestPalindrome</span><span class="hljs-params">(String s)</span> </span>{
+        <span class="hljs-keyword">int</span> n = s.length();
+        <span class="hljs-keyword">boolean</span>[][] dp = <span class="hljs-keyword">new</span> <span class="hljs-keyword">boolean</span>[n][n];
+        String ans = <span class="hljs-string">&quot;&quot;</span>;
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>; l &lt; n; ++l) {
+            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i + l &lt; n; ++i) {
+                <span class="hljs-keyword">int</span> j = i + l;
+                <span class="hljs-keyword">if</span> (l == <span class="hljs-number">0</span>) {
+                    dp[i][j] = <span class="hljs-keyword">true</span>;
+                } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (l == <span class="hljs-number">1</span>) {
+                    dp[i][j] = (s.charAt(i) == s.charAt(j));
+                } <span class="hljs-keyword">else</span> {
+                    dp[i][j] = (s.charAt(i) == s.charAt(j) &amp;&amp; dp[i + <span class="hljs-number">1</span>][j - <span class="hljs-number">1</span>]);
+                }
+                <span class="hljs-keyword">if</span> (dp[i][j] &amp;&amp; l + <span class="hljs-number">1</span> &gt; ans.length()) {
+                    ans = s.substring(i, i + l + <span class="hljs-number">1</span>);
+                }
+            }
+        }
+        <span class="hljs-keyword">return</span> ans;
+    }
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 写给自己看的题解">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="20200923-shi-xian-strstr.html" class="navigation navigation-next " aria-label="Next page: 20200923实现 StrStr()">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"20200922最长回文子串","level":"6.1.1.2.1","depth":4,"next":{"title":"20200923实现 StrStr()","level":"6.1.1.2.2","depth":4,"path":"其他/job/code/exercise/20200923-shi-xian-strstr.md","ref":"其他/job/code/exercise/20200923-shi-xian-strstr.md","articles":[]},"previous":{"title":"写给自己看的题解","level":"6.1.1.2","depth":3,"path":"其他/job/code/exercise/README.md","ref":"其他/job/code/exercise/README.md","articles":[{"title":"20200922最长回文子串","level":"6.1.1.2.1","depth":4,"path":"其他/job/code/exercise/20200922-zui-chang-hui-wen-zi-chuan.md","ref":"其他/job/code/exercise/20200922-zui-chang-hui-wen-zi-chuan.md","articles":[]},{"title":"20200923实现 StrStr()","level":"6.1.1.2.2","depth":4,"path":"其他/job/code/exercise/20200923-shi-xian-strstr.md","ref":"其他/job/code/exercise/20200923-shi-xian-strstr.md","articles":[]},{"title":"20200925Z字形变换","level":"6.1.1.2.3","depth":4,"path":"其他/job/code/exercise/20200925z-zi-xing-bian-huan.md","ref":"其他/job/code/exercise/20200925z-zi-xing-bian-huan.md","articles":[]},{"title":"20201029N皇后","level":"6.1.1.2.4","depth":4,"path":"其他/job/code/exercise/20201029n-huang-hou.md","ref":"其他/job/code/exercise/20201029n-huang-hou.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters-small","livereload"],"pluginsConfig":{"expandable-chapters-small":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"其他/job/code/exercise/20200922-zui-chang-hui-wen-zi-chuan.md","mtime":"2021-03-02T14:17:48.650Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-02T14:21:29.905Z"},"basePath":"../../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

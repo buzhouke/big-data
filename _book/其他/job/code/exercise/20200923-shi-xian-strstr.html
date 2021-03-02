@@ -1,0 +1,850 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>20200923实现 StrStr() · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="20200925z-zi-xing-bian-huan.html" />
+    
+    
+    <link rel="prev" href="20200922-zui-chang-hui-wen-zi-chuan.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../../">
+            
+                <a href="../../../../">
+            
+                    
+                    INTRODUCE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">大数据基础</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../../../大数据基础/linux/">
+            
+                <a href="../../../../大数据基础/linux/">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../../../大数据基础/linux/chang-yong-ming-ling.html">
+            
+                <a href="../../../../大数据基础/linux/chang-yong-ming-ling.html">
+            
+                    
+                    常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../../../../大数据基础/linux/wen-jian-mu-lu-jie-shao.html">
+            
+                <a href="../../../../大数据基础/linux/wen-jian-mu-lu-jie-shao.html">
+            
+                    
+                    文件目录介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../../../../大数据基础/linux/wen-jian-sou-suo-ming-ling.html">
+            
+                <a href="../../../../大数据基础/linux/wen-jian-sou-suo-ming-ling.html">
+            
+                    
+                    文件搜索命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../../../../大数据基础/linux/quan-xian-guan-li-ming-ling.html">
+            
+                <a href="../../../../大数据基础/linux/quan-xian-guan-li-ming-ling.html">
+            
+                    
+                    权限管理命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../../../../大数据基础/linux/网络命令.html">
+            
+                <a href="../../../../大数据基础/linux/网络命令.html">
+            
+                    
+                    网络命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../../../../大数据基础/linux/Vim命令.html">
+            
+                <a href="../../../../大数据基础/linux/Vim命令.html">
+            
+                    
+                    Vim命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../../../大数据基础/java/">
+            
+                <a href="../../../../大数据基础/java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../../../大数据基础/java/string.html">
+            
+                <a href="../../../../大数据基础/java/string.html">
+            
+                    
+                    String
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">大数据计算</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../../../大数据计算/hadoop/README.md">
+            
+                <span>
+            
+                    
+                    Hadoop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../../../大数据计算/README.md">
+            
+                <span>
+            
+                    
+                    Spark
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../../../../大数据计算/elk/README.md">
+            
+                <span>
+            
+                    
+                    ELK
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="../../../../大数据计算/elk/elasticsearch01.html">
+            
+                <a href="../../../../大数据计算/elk/elasticsearch01.html">
+            
+                    
+                    Elasticsearch01
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="../../../../大数据计算/elk/elasticsearch02/">
+            
+                <a href="../../../../大数据计算/elk/elasticsearch02/">
+            
+                    
+                    Elasticsearch02
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.2.1" data-path="../../../../大数据计算/elk/elasticsearch02/test02.html">
+            
+                <a href="../../../../大数据计算/elk/elasticsearch02/test02.html">
+            
+                    
+                    Test02
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../../../../大数据计算/flink/README.md">
+            
+                <span>
+            
+                    
+                    Flink
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.4.1" data-path="../../../../大数据计算/flink/flink-an-zhuang-yu-wordcount.html">
+            
+                <a href="../../../../大数据计算/flink/flink-an-zhuang-yu-wordcount.html">
+            
+                    
+                    Flink安装与WordCount
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">大数据存储</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../../../大数据存储/hbase/README.md">
+            
+                <span>
+            
+                    
+                    Hbase
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../../../大数据存储/hbase/README.md">
+            
+                <span>
+            
+                    
+                    ElasticSearch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../../../../大数据存储/hbase/README.md">
+            
+                <span>
+            
+                    
+                    Kafka
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../../../../大数据存储/hbase/README.md">
+            
+                <span>
+            
+                    
+                    HDFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">资源管理/任务调度/集成</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../../../资源管理&&任务调度&&集成/zookeeper/README.md">
+            
+                <span>
+            
+                    
+                    ZooKeeper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../../../../资源管理&&任务调度&&集成/yarn/README.md">
+            
+                <span>
+            
+                    
+                    Yarn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../../../../资源管理&&任务调度&&集成/k8s/README.md">
+            
+                <span>
+            
+                    
+                    Kubernetes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../../../../资源管理&&任务调度&&集成/cdh/README.md">
+            
+                <span>
+            
+                    
+                    CDH
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">其他</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    求职
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    leetcode刷题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1.1" data-path="../summarization/">
+            
+                <a href="../summarization/">
+            
+                    
+                    归纳
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1.1.1" data-path="../summarization/wei-yun-suan.html">
+            
+                <a href="../summarization/wei-yun-suan.html">
+            
+                    
+                    位运算
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    写给自己看的题解
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1.2.1" data-path="20200922-zui-chang-hui-wen-zi-chuan.html">
+            
+                <a href="20200922-zui-chang-hui-wen-zi-chuan.html">
+            
+                    
+                    20200922最长回文子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="6.1.1.2.2" data-path="20200923-shi-xian-strstr.html">
+            
+                <a href="20200923-shi-xian-strstr.html">
+            
+                    
+                    20200923实现 StrStr()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.2.3" data-path="20200925z-zi-xing-bian-huan.html">
+            
+                <a href="20200925z-zi-xing-bian-huan.html">
+            
+                    
+                    20200925Z字形变换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.2.4" data-path="20201029n-huang-hou.html">
+            
+                <a href="20201029n-huang-hou.html">
+            
+                    
+                    20201029N皇后
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../../theory.html">
+            
+                <a href="../../theory.html">
+            
+                    
+                    八股文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="../../think.html">
+            
+                <a href="../../think.html">
+            
+                    
+                    反思与总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../.." >20200923实现 StrStr()</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="20200923&#x5B9E;&#x73B0;-strstr">20200923&#x5B9E;&#x73B0; StrStr()</h1>
+<p>&#x9898;&#x76EE;: <a href="https://leetcode-cn.com/problems/implement-strstr/" target="_blank">&#x5B9E;&#x73B0; strStr()</a></p>
+<p>&#x8FD9;&#x9053;&#x9898;&#x76EE;&#xFF0C;&#x4E4D;&#x770B;&#x4E0A;&#x53BB;&#x8FD8;&#x662F;&#x633A;&#x7B80;&#x5355;&#x7684;&#xFF0C;&#x4E8E;&#x662F;&#x4E00;&#x8FB9;&#x542C;&#x7740;&#x5B66;&#x59B9;&#x8BB2;&#x8BDD;&#x4E00;&#x8FB9;&#x4E0D;&#x8FC7;&#x8111;&#x5B50;&#x7684;&#x5199;&#x4EE3;&#x7801;&#xFF0C;&#x4E8B;&#x5B9E;&#x8BC1;&#x660E;&#xFF0C;&#x5373;&#x4FBF;&#x7ECF;&#x8FC7;&#x4E86;&#x6628;&#x5929;&#x6700;&#x957F;&#x56DE;&#x6587;&#x5B50;&#x4E32;&#x7684;&#x5386;&#x7EC3;&#xFF0C;&#x6211;&#x4ECD;&#x7136;&#x4E0D;&#x591F;&#x719F;&#x6089;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x9898;&#x76EE;&#xFF0C;</p>
+<p>&#x5148;&#x653E;&#x4E0A;&#x81EA;&#x5DF1;&#x5361;&#x7528;&#x4F8B;&#x6539;&#x534A;&#x5929;&#x90FD;&#x8FC7;&#x4E0D;&#x4E86;&#x7684;&#x4EE3;&#x7801;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">strStr</span><span class="hljs-params">(String haystack, String needle)</span> </span>{
+        <span class="hljs-keyword">if</span>(needle.length()== <span class="hljs-number">0</span>)
+            <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">int</span> j = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">boolean</span> flag = <span class="hljs-keyword">false</span>;
+        <span class="hljs-keyword">while</span>(i &lt; haystack.length() &amp;&amp; j &lt; needle.length()){
+            <span class="hljs-keyword">if</span>(haystack.charAt(i) == needle.charAt(j)){
+                i++;
+                j++;
+                flag = <span class="hljs-keyword">true</span>;              
+            }
+            <span class="hljs-keyword">else</span>{
+                i++;
+                flag = <span class="hljs-keyword">false</span>;
+            }
+        }
+        <span class="hljs-keyword">if</span>(flag &amp;&amp; haystack.length() &gt;= needle.length()){
+            <span class="hljs-keyword">return</span> i - j;
+        }
+        <span class="hljs-keyword">else</span>
+        <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+    }
+}
+</code></pre>
+<p>&#x5F88;&#x660E;&#x663E;&#xFF0C;&#x5BF9;&#x7167;&#x5B98;&#x65B9;&#x9898;&#x89E3;&#xFF0C;&#x662F;&#x5728;&#x4EE5;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x7684;&#x601D;&#x60F3;&#x5728;&#x89E3;&#x9898;&#x76EE;&#xFF0C;&#x4F46;&#x662F;&#xFF0C;&#x5374;&#x5FFD;&#x89C6;&#x4E86;&#x4E00;&#x4E2A;&#x6839;&#x672C;&#x95EE;&#x9898;&#xFF0C;&#x201D;<strong>&#x5B57;&#x7B26;&#x4E32;&#x5339;&#x914D;&#x56E0;&#x6839;&#x636E;&#x5B50;&#x4E32;&#x6765;&#x5339;&#x914D;&#x800C;&#x975E;&#x5355;&#x4E2A;&#x5B57;&#x7B26;&#x4E00;&#x4E2A;&#x4E2A;&#x6BD4;&#x5BF9;</strong>&#x201C;&#xFF0C;&#x4EE5;&#x81F3;&#x4E8E;&#x4EE3;&#x7801;&#x6700;&#x540E;&#x9700;&#x91CD;&#x5199;&#x3002;</p>
+<p>&#x5B98;&#x89E3;&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">strStr</span><span class="hljs-params">(String haystack, String needle)</span> </span>{
+    <span class="hljs-keyword">int</span> L = needle.length(), n = haystack.length();
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> start = <span class="hljs-number">0</span>; start &lt; n - L + <span class="hljs-number">1</span>; ++start) {
+      <span class="hljs-keyword">if</span> (haystack.substring(start, start + L).equals(needle)) {
+        <span class="hljs-keyword">return</span> start;
+      }
+    }
+    <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+  }
+}
+</code></pre>
+<p>&#x4E8E;&#x662F;&#xFF0C;&#x56DE;&#x987E;&#x4E0A;&#x4E00;&#x7BC7;&#x603B;&#x7ED3;&#xFF0C;&#x8FD9;&#x662F;&#x6839;&#x672C;&#x6CA1;&#x53BB;&#x7406;&#x89E3;&#x7B97;&#x6CD5;/&#x4EE3;&#x7801;&#x672C;&#x8EAB;&#xFF0C;&#x5F97;&#x51FA;&#x4E86;&#x4E00;&#x4E9B;&#x5F88;&#x80A4;&#x6D45;&#x7684;&#x7ED3;&#x8BBA;&#x53C8;&#x8FEB;&#x4E0D;&#x53CA;&#x5F85;&#x5730;&#x52A0;&#x4EE5;&#x5229;&#x7528;&#x3002;</p>
+<p>&#x4F46;&#x662F;&#x8FD9;&#x91CC;&#x8FD8;&#x662F;&#x8981;&#x7ED9;&#x9605;&#x8BFB;&#x540E;&#x7684;&#x7ED3;&#x8BBA;</p>
+<ol>
+<li><code>++start</code>&#x8FD9;&#x4E2A;&#x5199;&#x6CD5;&#x5BA4;&#x53CB;&#x8DDF;&#x6211;&#x8BB2;&#x8FC7;&#xFF0C;&#x662F;&#x80FD;&#x591F;&#x5361;&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x8FD8;&#x662F;&#x4EC0;&#x4E48;&#xFF0C;&#x80FD;&#x7F16;&#x8BD1;&#x5FEB;&#x4E00;&#x70B9;</li>
+<li>&#x7531;&#x4E8E;&#x662F;&#x62FF;&#x5B50;&#x4E32;&#x5BF9;&#x6BD4;&#xFF0C;&#x5C06;for&#x5FAA;&#x73AF;&#x9650;&#x5236;&#x5728;<code>start &lt; n - L + 1</code>&#x662F;&#x5341;&#x5206;&#x5FC5;&#x8981;&#x4E5F;&#x662F;&#x9700;&#x8981;&#x6211;&#x53BB;&#x5B66;&#x4E60;&#x7684;&#xFF0C;&#x8FD9;&#x662F;&#x53BB;&#x4E00;&#x6BB5;&#x4E00;&#x6BB5;&#x5730;&#x622A;&#x53D6;&#x51FA;haystack&#xFF0C;&#x7136;&#x540E;&#x4E0E;needle&#x5BF9;&#x6BD4;&#x3002;</li>
+<li>&#x5E94;&#x8BE5;&#x6CE8;&#x610F;&#x7528;equals&#x800C;&#x975E;==&#x3002;</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="20200922-zui-chang-hui-wen-zi-chuan.html" class="navigation navigation-prev " aria-label="Previous page: 20200922最长回文子串">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="20200925z-zi-xing-bian-huan.html" class="navigation navigation-next " aria-label="Next page: 20200925Z字形变换">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"20200923实现 StrStr()","level":"6.1.1.2.2","depth":4,"next":{"title":"20200925Z字形变换","level":"6.1.1.2.3","depth":4,"path":"其他/job/code/exercise/20200925z-zi-xing-bian-huan.md","ref":"其他/job/code/exercise/20200925z-zi-xing-bian-huan.md","articles":[]},"previous":{"title":"20200922最长回文子串","level":"6.1.1.2.1","depth":4,"path":"其他/job/code/exercise/20200922-zui-chang-hui-wen-zi-chuan.md","ref":"其他/job/code/exercise/20200922-zui-chang-hui-wen-zi-chuan.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters-small","livereload"],"pluginsConfig":{"expandable-chapters-small":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"其他/job/code/exercise/20200923-shi-xian-strstr.md","mtime":"2021-03-02T14:17:48.651Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-02T14:21:29.905Z"},"basePath":"../../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
